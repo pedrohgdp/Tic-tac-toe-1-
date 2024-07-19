@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void criarTabuleiro(char tabuleiro[3][3]){
-    //Nessa fução criamos um tabuleiro 3x3 preenchendo ele com espaços vazios
+    //Nessa fução iniciamos os valores de um tabuleiro 3x3 preenchendo ele com espaços vazios
     for(int i = 0; i < 3; i++){
         for(int j = 0; j < 3; j++){
             tabuleiro[i][j] = ' ';
